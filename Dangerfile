@@ -16,6 +16,5 @@ github.dismiss_out_of_range_messages({
     android_lint.lint(inline_mode: true)
 
 
-    android_lint.gradle_task = "your_module:lint"
     # Warn when there is a big PR
     warn('a large PR') if git.lines_of_code > 500
