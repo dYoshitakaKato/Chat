@@ -29,7 +29,7 @@ GEM
     danger-android_lint (0.0.12)
       danger-plugin-api (~> 1.0)
       oga
-    danger-checkstyle_format (0.0.4)
+    danger-checkstyle_format (0.1.1)
       danger-plugin-api (~> 1.0)
       ox (~> 2.0)
     danger-junit (1.0.2)
@@ -81,7 +81,7 @@ PLATFORMS
 DEPENDENCIES
   danger
   danger-android_lint
-  danger-checkstyle_format (~> 0.0.1)
+  danger-checkstyle_format (~> 0.1.0)
   danger-junit (~> 1.0, >= 1.0.2)
 
 BUNDLED WITH
